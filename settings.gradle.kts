@@ -13,6 +13,9 @@ include(
     "common:common-di"
 )
 include(
+    "features:splash",
+)
+include(
     "features:home:feature-home-domain",
     "features:home:feature-home"
 )

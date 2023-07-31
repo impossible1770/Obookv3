@@ -7,9 +7,8 @@
     </style>
 
     <style name="Theme.Appiplay.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
-        <item name="android:windowBackground">@color/godGray</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
 
 </resources>
