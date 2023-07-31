@@ -7,7 +7,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import cafe.adriel.voyager.navigator.tab.LocalTabNavigator
 import cafe.adriel.voyager.navigator.tab.Tab
-import com.puls.uicomponents.compose.theme.CustomTheme
+import com.icompany.uicomponents.compose.theme.CustomTheme
 
 @Composable
 internal fun RowScope.TabNavigationItem(tab: Tab) {

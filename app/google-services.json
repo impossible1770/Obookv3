@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:719859225345:android:bef2753d5d9d98c7a30100",
         "android_client_info": {
-          "package_name": "com.puls.composemultimoduletemplate"
+          "package_name": "com.icompany.composemultimoduletemplate"
         }
       },
       "oauth_client": [
@@ -38,7 +38,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:719859225345:android:d52478d38961df46a30100",
         "android_client_info": {
-          "package_name": "com.puls.composemultitemplate.dev"
+          "package_name": "com.icompany.composemultitemplate.dev"
         }
       },
       "oauth_client": [

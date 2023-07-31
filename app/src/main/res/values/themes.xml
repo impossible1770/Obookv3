@@ -4,6 +4,8 @@
 
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
     </style>
 
     <style name="Theme.Appiplay.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">

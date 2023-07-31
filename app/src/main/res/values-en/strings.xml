@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">OBook</string>
+
+    <!--menu-->
+    <string name="menu_orders">Orders</string>
+    <string name="menu_clients">Clients</string>
+    <string name="menu_items">Items</string>
+    <string name="menu_history">History</string>
+
+    <!--Default names-->
+    <string name="defaultClientName">Client №%1$s</string>
+    <string name="defaultProductCaption">Item №%1$s</string>
+    <string name="dateTimePattern">dd.MM.yyyy hh:mm aa</string>
+
+    <!--Dialog-->
+    <string name="dialogSuccessful">Done</string>
+    <string name="dialogSave">Save</string>
+    <string name="dialogAdd">Add</string>
+    <string name="dialogCancel">Cancel</string>
+    <string name="dialogOk">Ok</string>
+    <string name="dialogClose">Close</string>
+    <string name="dialogRestore">Restore</string>
+    <string name="dialogCreate">Create</string>
+    <string name="dialogButtonDel">Delete</string>
+
+    <!--Error-->
+    <string name="dialogErrorNotSelectedProduct">Choose item</string>
+    <string name="dialogErrorNotSelectedClient">Choose client</string>
+
+    <!--Fragment Orders-->
+    <string name="tvHeaderOrders">Current orders</string>
+    <string name="tvHeaderFilter">Filter</string>
+    <string name="tvFilterFrom">From</string>
+    <string name="tvFilterTo">To</string>
+    <string name="tvFilterDate">Date</string>
+    <string name="dialogOrderHeaderDel">Delete order</string>
+    <string name="dialogOrderContentDel">Are you sure you want to delete order?</string>
+    <string name="dialogOrderRestore">Do you want to restore order?</string>
+    <string name="dialogOrderContentClose">Are you sure you want to close order?</string>
+    <string name="dialogOrderHeaderClose">Close order</string>
+    <string name="tvOrderTotalPrice">Price: %1$s</string>
+
+    <!--Fragment Actions Order-->
+    <string name="tvHeaderAddOrder">Add order</string>
+    <string name="tvHeaderEditOrder">Change order</string>
+    <string name="tvSelectClient">Choose client</string>
+    <string name="btnAddProduct">Add item</string>
+    <string name="dialogActionsTempProductHeader">Add item</string>
+    <string name="dialogActionsProductTotalPrice">Finally price: %1$s</string>
+    <string name="dialogActionsProductTotalPriceDef">Finally price: 0</string>
+    <string name="dialogCommentEtHint">Please describe or leave empty</string>
+    <string name="dialogCommentHeader">Short order description</string>
+    <string name="dialogDeliveryDateEtHint">Delivery date</string>
+    <string name="tvCountProduct">Currency</string>
+    <string name="tvPriceForOne">Price per unit</string>
+    <string name="tvPriceTotal">x%1$s * %2$s = %3$s</string>
+
+    <!--FragmentClients-->
+    <string name="tvHeaderClients">Your clients</string>
+    <string name="tvHeaderClient">Your client</string>
+    <string name="dialogClientHeaderAdd">Add client</string>
+    <string name="dialogClientHeaderDetails">More</string>
+    <string name="dialogClientHeaderEdit">Change client</string>
+    <string name="dialogClientHeaderDel">Delete client</string>
+    <string name="dialogClientRestore">Do you want to restore client?</string>
+    <string name="dialogClientContentDel">Are you sure you want to delete client?</string>
+    <string name="etNameHint">Name</string>
+    <string name="etPhoneHint">Phone number</string>
+    <string name="etAddressHint">Adress</string>
+    <string name="etBirthHint">Date of birth | Sign up</string>
+
+    <!--FragmentProduct-->
+    <string name="tvHeaderProducts">Your items</string>
+    <string name="tvHeaderProduct">Your item</string>
+    <string name="dialogProductHeaderAdd">Add item</string>
+    <string name="dialogProductEtCaptionHintAdd">Name of item</string>
+    <string name="dialogProductHeaderEdit">Change item</string>
+    <string name="dialogProductRestore">Do you want to restore item?</string>
+    <string name="dialogProductHeaderDel">Delete item</string>
+    <string name="dialogProductContentDel">Are you sure you want to delete item?</string>
+
+    <!--ImagePicker-->
+    <string name="title_choose_image_provider">Choose provider</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_camera">Camera</string>
+    <string name="error_task_cancelled">Cancelled</string>
+    <string name="ucrop_label_edit_photo">Edit photo</string>
+
+    <!--FragmentOrderDetails-->
+    <string name="tvHeaderOrderDetails">Order details</string>
+    <string name="tvTitleSumProducts">Amount:</string>
+    <string name="tvTitleResultSum">To pay:</string>
+    <string name="tvOrderDescriptionOrder">Description: %1$s</string>
+    <string name="tvHeaderHistoryOrders">Orders</string>
+
+    <!--EmptyViewHolder-->
+    <string name="tvEmptyItemsCurrentOrders">You don\'t have active orders</string>
+    <string name="tvEmptyItemsHistoryOrders">You don\'t have orders in history\nHere is finished orders</string>
+    <string name="tvEmptyItemsProducts">Items list is empty</string>
+    <string name="tvEmptyItemsTempProducts">Chosen items list is empty</string>
+    <string name="tvEmptyItemsClients">Clients list is empty</string>
+
+    <!--Filter-->
+    <string name="filterToday">Today</string>
+    <string name="filterYesterday">Yesterday</string>
+    <string name="filterTomorrow">Tomorrow</string>
+    <string name="filterAll">All</string>
+    <string name="filterInterval">Interval</string>
+    <string name="sold_for">Profit: %1$s</string>
+    <string name="sold_all">Total income: %1$s</string>
+    <string name="active_orders">Actives</string>
+
+</resources>

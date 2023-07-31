@@ -2,8 +2,8 @@ package com.icompany.obook
 
 import android.app.Application
 import cafe.adriel.voyager.core.registry.ScreenRegistry
-import com.puls.home.navigation.global.featureHomeScreenModule
-import com.puls.profile.navigation.global.featureProfileScreenModule
+import com.icompany.home.navigation.global.featureHomeScreenModule
+import com.icompany.profile.navigation.global.featureProductsScreenModule
 import timber.log.Timber
 
 internal class App : Application() {
@@ -16,7 +16,7 @@ internal class App : Application() {
 
     private fun initGlobalNavigation() {
         ScreenRegistry {
-            featureProfileScreenModule()
+            featureProductsScreenModule()
             featureHomeScreenModule()
         }
     }

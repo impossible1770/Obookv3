@@ -16,7 +16,7 @@ dependencies {
     implementation(projects.uicomponents)
     implementation(projects.core)
     implementation(projects.navigation)
-    implementation(projects.features.profile.featureProfileDomain)
+    //implementation(projects.features.profile.featureProfileDomain)
 
     implementation(libs.appcompat)
     implementation(libs.composeUI)

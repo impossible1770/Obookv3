@@ -16,12 +16,12 @@ include(
     "features:splash",
 )
 include(
-    "features:home:feature-home-domain",
-    "features:home:feature-home"
+    "features:clients:feature-clients-domain",
+    "features:clients:feature-clients"
 )
 include(
-    "features:profile:feature-profile",
-    "features:profile:feature-profile-domain"
+    "features:products:feature-products",
+    "features:products:feature-products-domain"
 )
 
 pluginManagement {

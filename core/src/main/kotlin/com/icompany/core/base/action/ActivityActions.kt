@@ -1,3 +1,3 @@
-package com.puls.core.base.action
+package com.icompany.core.base.action
 
 interface ActivityActions

@@ -1,7 +1,7 @@
 package com.icompany.obook.di.component.main
 
-import com.puls.commondi.component.base.DIComponent
-import com.puls.commondi.holder.single.FeatureComponentHolder
+import com.icompany.commondi.component.base.DIComponent
+import com.icompany.commondi.holder.single.FeatureComponentHolder
 import dagger.Component
 
 interface AppComponent : DIComponent

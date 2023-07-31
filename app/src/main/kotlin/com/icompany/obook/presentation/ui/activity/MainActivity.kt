@@ -13,11 +13,11 @@ import cafe.adriel.voyager.navigator.tab.TabNavigator
 import com.icompany.obook.R
 import com.icompany.obook.di.component.main.AppComponentHolder
 import com.icompany.obook.utils.TabNavigationItem
-import com.puls.core.base.action.ActivityActions
-import com.puls.home.presentation.ui.screen.HomeTab
-import com.puls.profile.presentation.ui.screen.ProfileTab
-import com.puls.uicomponents.compose.theme.CustomTheme
-import com.puls.uicomponents.compose.theme.DefaultTheme
+import com.icompany.core.base.action.ActivityActions
+import com.icompany.home.presentation.ui.screen.ClientsTab
+import com.icompany.profile.presentation.ui.screen.ProductsTab
+import com.icompany.uicomponents.compose.theme.CustomTheme
+import com.icompany.uicomponents.compose.theme.DefaultTheme
 
 internal class MainActivity : ComponentActivity(), ActivityActions {
 
@@ -26,17 +26,17 @@ internal class MainActivity : ComponentActivity(), ActivityActions {
         super.onCreate(savedInstanceState)
 
         setContent {
-            val homeTab = HomeTab()
-            val profileTab = ProfileTab()
+            val clientsTab = ClientsTab()
+            val profileTab = ProductsTab()
 
-            TabNavigator(homeTab) {
+            TabNavigator(clientsTab) {
                 DefaultTheme {
                     Scaffold(
                         content = {
                             CurrentTab()
                         },
                         bottomBar = {
-                            NavBar(homeTab, profileTab)
+                            NavBar(clientsTab, profileTab)
                         }
                     )
                 }
@@ -49,6 +49,10 @@ internal class MainActivity : ComponentActivity(), ActivityActions {
         val theme = super.getTheme()
         theme.applyStyle(R.style.Theme_ComposeMultiModuleTemplate, true)
         return theme
+    }
+
+    private fun getTabs(){
+
     }
 
     @Composable

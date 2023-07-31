@@ -24,8 +24,8 @@ dependencies {
     implementation(projects.core)
     implementation(projects.navigation)
     implementation(projects.uicomponents)
-    implementation(projects.features.home.featureHome)
-    implementation(projects.features.profile.featureProfile)
+    implementation(projects.features.clients.featureClients)
+    implementation(projects.features.products.featureProducts)
 
     implementation(libs.appcompat)
     implementation(libs.dagger)

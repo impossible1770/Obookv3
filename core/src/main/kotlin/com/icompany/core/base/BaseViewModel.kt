@@ -1,4 +1,4 @@
-package com.puls.core.base
+package com.icompany.core.base
 
 import androidx.lifecycle.ViewModel
 
