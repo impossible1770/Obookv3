@@ -7,6 +7,7 @@ plugins {
     id("convention.detekt")
     id("convention.lifecycle")
     id("convention.dependency-updates")
+
 }
 
 buildscript {
@@ -34,7 +35,7 @@ buildscript {
 
 tasks.withType<Wrapper>().configureEach {
     distributionType = Wrapper.DistributionType.BIN
-    gradleVersion = "7.5.1"
+    gradleVersion = "8.0.1"
 }
 subprojects {
     if (gradle.startParameter.isConfigureOnDemand &&

@@ -3,12 +3,14 @@ plugins {
 }
 
 android {
+
+
+        namespace = "com.icompany.uicomponents"
+
     buildFeatures {
         compose = true
     }
-    composeOptions {
-        kotlinCompilerExtensionVersion = libs.versions.composeCompiler.get()
-    }
+
 }
 
 dependencies {

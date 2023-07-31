@@ -1,4 +1,4 @@
-package com.puls.composemultimoduletemplate
+package com.icompany.obook
 
 import android.app.Application
 import cafe.adriel.voyager.core.registry.ScreenRegistry

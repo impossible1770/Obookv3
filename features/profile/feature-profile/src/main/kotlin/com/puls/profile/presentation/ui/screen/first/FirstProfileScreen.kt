@@ -17,17 +17,15 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.ViewModelProvider
 import cafe.adriel.voyager.androidx.AndroidScreen
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
+import com.icompany.profile.R
 import com.puls.commondi.util.getDaggerViewModel
-import com.puls.feature_profile.R
 import com.puls.profile.di.component.ProfileComponentHolder
 import com.puls.profile.presentation.ui.screen.second.SecondProfileScreen
 import com.puls.profile_domain.domain.model.response.User
 import com.puls.uicomponents.utils.LoadState
-import javax.inject.Inject
 
 internal class FirstProfileScreen : AndroidScreen() {
 

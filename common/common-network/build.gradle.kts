@@ -2,6 +2,11 @@ plugins {
     id("android-library-convention")
 }
 
+android {
+    namespace = "com.icompany.commonnetwork"
+
+}
+
 dependencies {
     implementation(projects.common.commonDi)
 

@@ -40,3 +40,4 @@ dependencyResolutionManagement {
         maven(url = "https://oss.sonatype.org/content/repositories/snapshots/")
     }
 }
+include(":features:mylibrary")

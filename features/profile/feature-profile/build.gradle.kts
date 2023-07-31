@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
+
+        namespace = "com.icompany.profile"
     buildFeatures {
         compose = true
     }
-    composeOptions {
-        kotlinCompilerExtensionVersion = libs.versions.composeCompiler.get()
-    }
+
 }
 
 dependencies {
@@ -25,7 +25,6 @@ dependencies {
     implementation(libs.composeFoundation)
     implementation(libs.material)
     implementation(libs.stateUtils)
-    implementation(libs.cicerone)
     implementation(libs.dagger)
     kapt(libs.daggerCompiler)
     implementation(libs.fragmentKtx)

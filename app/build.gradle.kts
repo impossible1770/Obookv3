@@ -4,18 +4,19 @@ plugins {
 }
 
 android {
+    namespace = "com.icompany.obook"
+
     lintOptions.disable += "Instantiatable"
 
     defaultConfig {
-        applicationId = "com.puls.composemultitemplate"
+        applicationId = "com.icompany.obook"
     }
 
     buildFeatures {
         compose = true
+        buildConfig = true
     }
-    composeOptions {
-        kotlinCompilerExtensionVersion = libs.versions.composeCompiler.get()
-    }
+
 }
 
 dependencies {
@@ -27,8 +28,6 @@ dependencies {
     implementation(projects.features.profile.featureProfile)
 
     implementation(libs.appcompat)
-    implementation(libs.cicerone)
-    implementation(libs.coreKtx)
     implementation(libs.dagger)
     kapt(libs.daggerCompiler)
     implementation(libs.material)
@@ -41,15 +40,4 @@ dependencies {
     implementation(libs.voyagerNavigator)
     implementation(libs.voyagerTabNavigator)
     implementation(libs.voyagerTransitions)
-
-/*    debugImplementation(libs.hyperionAttr)
-    debugImplementation(libs.hyperionBuildConfig)
-    debugImplementation(libs.hyperionCore)
-    debugImplementation(libs.hyperionCrash)
-    debugImplementation(libs.hyperionDisk)
-    debugImplementation(libs.hyperionMeasurement)
-    debugImplementation(libs.hyperionPhoenix)
-    debugImplementation(libs.hyperionRecorder)
-    debugImplementation(libs.hyperionSharedPreferences)
-    debugImplementation(libs.hyperionTimber)*/
 }

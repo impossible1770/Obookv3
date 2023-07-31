@@ -1,4 +1,4 @@
-package com.puls.composemultimoduletemplate.presentation.ui.activity
+package com.icompany.obook.presentation.ui.activity
 
 import android.content.res.Resources
 import android.os.Bundle
@@ -10,9 +10,9 @@ import androidx.compose.runtime.Composable
 import cafe.adriel.voyager.navigator.tab.CurrentTab
 import cafe.adriel.voyager.navigator.tab.Tab
 import cafe.adriel.voyager.navigator.tab.TabNavigator
-import com.puls.composemultimoduletemplate.R
-import com.puls.composemultimoduletemplate.di.component.main.AppComponentHolder
-import com.puls.composemultimoduletemplate.utils.TabNavigationItem
+import com.icompany.obook.R
+import com.icompany.obook.di.component.main.AppComponentHolder
+import com.icompany.obook.utils.TabNavigationItem
 import com.puls.core.base.action.ActivityActions
 import com.puls.home.presentation.ui.screen.HomeTab
 import com.puls.profile.presentation.ui.screen.ProfileTab

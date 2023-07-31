@@ -1,4 +1,4 @@
-package com.puls.composemultimoduletemplate.utils
+package com.icompany.obook.utils
 
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material.BottomNavigationItem

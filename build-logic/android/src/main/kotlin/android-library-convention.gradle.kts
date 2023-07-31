@@ -8,6 +8,11 @@ plugins {
 }
 
 configure<BaseExtension> {
+
+    buildFeatures.buildConfig = true
+    composeOptions.kotlinCompilerExtensionVersion = "1.4.5"
+
+
     buildTypes {
         getByName("release") {
             consumerProguardFiles("consumer-rules.pro")

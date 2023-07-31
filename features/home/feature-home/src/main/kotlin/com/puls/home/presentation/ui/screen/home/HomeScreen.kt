@@ -14,8 +14,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.androidx.AndroidScreen
+import com.icompany.home.R
 import com.puls.commondi.util.getDaggerViewModel
-import com.puls.feature_home.R
 import com.puls.home.di.component.HomeComponentHolder
 import com.puls.home_domain.domain.model.response.User
 import com.puls.uicomponents.compose.theme.DefaultTheme

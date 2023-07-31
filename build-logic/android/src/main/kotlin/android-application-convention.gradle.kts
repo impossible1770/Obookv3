@@ -11,6 +11,9 @@ plugins {
     id("dependency-locking-convention")
 }
 configure<BaseExtension> {
+
+    composeOptions.kotlinCompilerExtensionVersion = "1.4.5"
+
     buildTypes {
         getByName("release") {
             proguardFiles(

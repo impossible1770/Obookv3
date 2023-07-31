@@ -3,12 +3,16 @@ plugins {
 }
 
 android {
+
+
+        namespace = "com.icompany.commondi"
+
     buildFeatures {
         compose = true
+        buildConfig = true
+
     }
-    composeOptions {
-        kotlinCompilerExtensionVersion = libs.versions.composeCompiler.get()
-    }
+
 }
 dependencies {
     implementation(libs.composeActivity)

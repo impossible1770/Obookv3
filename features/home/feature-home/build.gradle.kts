@@ -3,12 +3,13 @@ plugins {
 }
 
 android {
+
+    namespace = "com.icompany.home"
+
     buildFeatures {
         compose = true
     }
-    composeOptions {
-        kotlinCompilerExtensionVersion = libs.versions.composeCompiler.get()
-    }
+
 }
 
 dependencies {
@@ -19,7 +20,6 @@ dependencies {
     implementation(projects.features.home.featureHomeDomain)
 
     implementation(libs.appcompat)
-    implementation(libs.cicerone)
     implementation(libs.composeUI)
     implementation(libs.composeMaterial)
     implementation(libs.composeUITooling)

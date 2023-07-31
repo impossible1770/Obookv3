@@ -1,6 +1,6 @@
 package com.puls.commonnetwork.di.module
 
-import com.puls.common_network.BuildConfig
+import com.icompany.commonnetwork.BuildConfig
 import com.puls.commonnetwork.config.NetworkConfig
 import com.puls.commonnetwork.util.MoshiArrayListJsonAdapter
 import com.squareup.moshi.Moshi

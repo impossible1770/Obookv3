@@ -1,4 +1,4 @@
-package com.puls.composemultimoduletemplate.di.component.main
+package com.icompany.obook.di.component.main
 
 import com.puls.commondi.component.base.DIComponent
 import com.puls.commondi.holder.single.FeatureComponentHolder

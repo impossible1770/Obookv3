@@ -9,7 +9,7 @@ import androidx.compose.ui.res.stringResource
 import cafe.adriel.voyager.navigator.Navigator
 import cafe.adriel.voyager.navigator.tab.Tab
 import cafe.adriel.voyager.navigator.tab.TabOptions
-import com.puls.feature_home.R
+import com.icompany.home.R
 import com.puls.home.presentation.ui.screen.home.HomeScreen
 
 class HomeTab : Tab {
