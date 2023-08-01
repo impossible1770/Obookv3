@@ -1,5 +1,5 @@
 [versions]
-kotlin = "1.8.20"
+kotlin = "1.8.22"
 
 activityKtx = "1.7.2"
 anotation = "1.2.0"
@@ -15,6 +15,9 @@ detekt = "1.22.0"
 compose = "1.4.3"
 voyager = "1.0.0-rc02"
 androidGradle = "8.1.0"
+room = "2.5.2"
+kotlin-serialization = "1.5.0"
+
 
 
 [libraries]
@@ -65,3 +68,8 @@ voyagerNavigator = { module = "cafe.adriel.voyager:voyager-navigator", version.r
 voyagerTabNavigator = { module = "cafe.adriel.voyager:voyager-tab-navigator", version.ref = "voyager" }
 voyagerTransitions = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyager" }
 voyagerViewModel = { module = "cafe.adriel.voyager:voyager-androidx", version.ref = "voyager" }
+
+room = { module = "androidx.room:room-runtime", version.ref = "room" }
+roomCompiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+kotlinSerialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlin-serialization" }
+

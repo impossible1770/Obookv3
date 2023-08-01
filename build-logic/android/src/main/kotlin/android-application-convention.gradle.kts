@@ -12,7 +12,8 @@ plugins {
 }
 configure<BaseExtension> {
 
-    composeOptions.kotlinCompilerExtensionVersion = "1.4.5"
+
+    composeOptions.kotlinCompilerExtensionVersion = "1.4.8"
 
     buildTypes {
         getByName("release") {

@@ -10,7 +10,7 @@ plugins {
 configure<BaseExtension> {
 
     buildFeatures.buildConfig = true
-    composeOptions.kotlinCompilerExtensionVersion = "1.4.5"
+    composeOptions.kotlinCompilerExtensionVersion = "1.4.8"
 
 
     buildTypes {

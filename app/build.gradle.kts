@@ -1,6 +1,12 @@
 plugins {
     id("android-application-convention")
     id("dependency-locking-convention")
+    id("com.google.devtools.ksp")
+
+}
+
+ksp {
+    arg("room.schemaLocation", "$projectDir/room-schemas")
 }
 
 android {
@@ -16,6 +22,8 @@ android {
         compose = true
         buildConfig = true
     }
+
+
 
 }
 
