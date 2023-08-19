@@ -14,7 +14,6 @@ import com.icompany.obook.R
 import com.icompany.obook.di.component.main.AppComponentHolder
 import com.icompany.obook.utils.TabNavigationItem
 import com.icompany.core.base.action.ActivityActions
-import com.icompany.home.presentation.ui.screen.ClientsTab
 import com.icompany.profile.presentation.ui.screen.ProductsTab
 import com.icompany.uicomponents.compose.theme.CustomTheme
 import com.icompany.uicomponents.compose.theme.DefaultTheme
@@ -36,7 +35,7 @@ internal class MainActivity : ComponentActivity(), ActivityActions {
                             CurrentTab()
                         },
                         bottomBar = {
-                            NavBar(clientsTab, profileTab)
+                            NavBar(*getTabs())
                         }
                     )
                 }
@@ -51,8 +50,8 @@ internal class MainActivity : ComponentActivity(), ActivityActions {
         return theme
     }
 
-    private fun getTabs(){
-
+    private fun getTabs(): Array<Tab> {
+        return arrayOf( ClientsTab(), ProductsTab())
     }
 
     @Composable
